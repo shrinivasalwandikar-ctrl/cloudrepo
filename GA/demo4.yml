@@ -1,0 +1,19 @@
+# This is demo workflow 4 for GitHub Actions.
+name: demo4
+
+on:
+    workflow_dispatch:
+    #push:
+
+jobs:
+    check-the-app:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                node-version: 20
+            - run: npm install
+            - run: npm start &
+            - run: sleep 5
+            - run: curl -I http://localhost:3001 || exit 1
