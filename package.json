@@ -1,4 +1,17 @@
 {
+  "name": "hi-shrinivas-app",
+  "version": "1.0.0",
+  "description": "Simple Node app that displays a welcome message",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT"
+}
+{
   "name": "cloudautomation-express",
   "version": "1.0.0",
   "description": "Express + Bootstrap 5 starter",

@@ -1,3 +1,15 @@
+# Hi Shrinivas App
+
+Simple Node app that displays a welcome message.
+
+Run locally:
+
+```bash
+npm install   # not required for this minimal app
+npm start
+```
+
+Then open: http://localhost:3000
 # CloudAutomation — Express + Bootstrap Starter
 
 This project is a minimal Express.js app serving a Bootstrap 5 landing page.
