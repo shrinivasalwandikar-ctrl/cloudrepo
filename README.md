@@ -91,3 +91,4 @@ Notes
 - `index.html` is at the project root and uses Bootstrap 5 via CDN.
 - To develop with automatic restarts, install `nodemon` and run `npm run dev`.
 # cloudrepo
+# ansible

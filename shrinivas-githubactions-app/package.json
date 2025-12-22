@@ -1,7 +1,7 @@
 {
-  "name": "welcome-app",
+  "name": "shrinivas-githubactions-app",
   "version": "1.0.0",
-  "description": "Simple Node.js app to print welcome message",
+  "description": "Simple Node.js app to display greeting",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
